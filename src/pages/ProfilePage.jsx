@@ -3,7 +3,6 @@ import PageContainer from '../components/layout/PageContainer';
 import Avatar from '../components/common/Avatar';
 import Badge from '../components/common/Badge';
 import { currentUser } from '../data/mockUsers';
-import { mockBookshelves } from '../data/mockBookshelves';
 import { mockReviews } from '../data/mockReviews';
 import { FiBook, FiStar, FiUsers, FiCalendar } from 'react-icons/fi';
 import { format } from 'date-fns';
