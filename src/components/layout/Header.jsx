@@ -48,13 +48,13 @@ const Header = () => {
             <Link to="/my-books" className="text-gray-700 hover:text-indigo-600 font-medium transition">
               My Books
             </Link>
-            <Link to={`/profile/${currentUser.username}`} className="flex items-center space-x-2">
+            {/* <Link to={`/profile/${currentUser.username}`} className="flex items-center space-x-2">
               <img
                 src={currentUser.avatar}
                 alt={currentUser.name}
                 className="w-8 h-8 rounded-full border-2 border-gray-300 hover:border-indigo-600 transition"
               />
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -101,14 +101,14 @@ const Header = () => {
               <FiBook />
               <span>My Books</span>
             </Link>
-            <Link
+            {/* <Link
               to={`/profile/${currentUser.username}`}
               className="flex items-center space-x-2 text-gray-700 hover:text-indigo-600 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               <FiUser />
               <span>Profile</span>
-            </Link>
+            </Link> */}
           </nav>
         </div>
       )}
